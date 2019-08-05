@@ -10,7 +10,7 @@ def rename_files(dir_path, number):
     """
     file_list = os.listdir(dir_path)
 
-    index = 60
+    index = 0
     for item in file_list:
         oldname = dir_path + r"\\" + file_list[index]
         newname = dir_path + r"\\" + str(number + index) + ".jpg"
@@ -19,5 +19,5 @@ def rename_files(dir_path, number):
         index += 1
 
 if __name__ == "__main__":
-    imageDir = 'test'
-    rename_files(imageDir, 60)
+    imageDir = 'img_test'
+    rename_files(imageDir, 0)

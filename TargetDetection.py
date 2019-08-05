@@ -415,11 +415,11 @@ if __name__ == '__main__':
 
     # 测试HSV滑动条函数
     # tarDet = TargetDetection(Img)
-    # tarDet.sliderObjectHSV("football")
+    # tarDet.sliderObjectHSV("stick")
 
     # 测试霍夫圆检测滑动条(球类目标专用)
     # houghDet = HoughDetection(Img)
-    # houghDet.houghSlider("football")
+    # houghDet.houghSlider("redball")
 
     # 测试轮廓检测滑动条(黄杆专用)
     ContoursDet = ContoursDetection(Img)
