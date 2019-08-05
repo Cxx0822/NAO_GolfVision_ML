@@ -414,13 +414,13 @@ if __name__ == '__main__':
     Img = cv2.imread("stick.jpg")   # 注意替换照片
 
     # 测试HSV滑动条函数
-    # tarDet = TargetDetection(Img)
-    # tarDet.sliderObjectHSV("stick")
+    tarDet = TargetDetection(Img)
+    tarDet.sliderObjectHSV("stick")
 
     # 测试霍夫圆检测滑动条(球类目标专用)
     # houghDet = HoughDetection(Img)
     # houghDet.houghSlider("redball")
 
     # 测试轮廓检测滑动条(黄杆专用)
-    ContoursDet = ContoursDetection(Img)
-    ContoursDet.contoursSlider("stick")
+    # ContoursDet = ContoursDetection(Img)
+    # ContoursDet.contoursSlider("stick")
