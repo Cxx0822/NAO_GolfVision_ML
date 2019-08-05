@@ -1,0 +1,26 @@
+<annotation>
+	<folder>stick_1</folder>
+	<filename>0.jpg</filename>
+	<path>D:\NAO\visual_cxx\stick_1\0.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>stick</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>267</xmin>
+			<ymin>1</ymin>
+			<xmax>418</xmax>
+			<ymax>479</ymax>
+		</bndbox>
+	</object>
+</annotation>
