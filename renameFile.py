@@ -21,3 +21,4 @@ def rename_files(dir_path, number):
 if __name__ == "__main__":
     imageDir = 'img_test'
     rename_files(imageDir, 0)
+
