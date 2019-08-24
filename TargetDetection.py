@@ -51,7 +51,7 @@ class TargetDetection(object):
             binImg = cv2.inRange(HSVImg, minHSV, maxHSV)               
 
             # 图像滤波处理（腐蚀，膨胀，高斯）
-            # binImg = self.filter(binImg)
+            binImg = self.filter(binImg)
 
         elif object == "stick":
             HSVImg = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)       # 转到HSV空间   
